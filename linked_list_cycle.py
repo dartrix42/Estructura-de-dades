@@ -10,6 +10,6 @@ def hasCycle(head: ListNode) -> bool:
     while head is not None:
         if head in vist:
             return True
-        vist.add(head.val)
+        vist.add(head)
         head = head.next
     return False
